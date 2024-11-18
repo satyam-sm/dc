@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Define the complex type for a contact -->
+    <xs:complexType name="playerType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="team" type="xs:string"/>
+            <xs:element name="country" type="xs:string"/>
+            <xs:element name="role" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Define the root element and its type -->
+    <xs:element name="IPL">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="player" type="playerType" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

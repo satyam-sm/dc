@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IPL xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cricket.xsd">
+
+    <player>
+        <name>MS Dhoni</name>
+        <team>CSK</team>
+        <country>India</country>
+        <role>Batter</role>
+    </player>
+
+    <player>
+        <name>Virat Kohli</name>
+        <team>RCB</team>
+        <country>India</country>
+        <role>Batter</role>
+    </player>
+
+    <player>
+        <name>Bumrah</name>
+        <team>MI</team>
+        <country>India</country>
+        <role>Bowler</role>
+    </player>
+
+    
+
+</IPL>
